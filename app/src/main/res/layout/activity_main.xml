@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qihua.test.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FF00"
+            android:onClick="read"
+            android:text="read"/>
+
+        <Button
+            android:id="@+id/write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#0000ff"
+            android:onClick="write"
+            android:text="write"/>
+
+        <Button
+            android:id="@+id/jiexi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"
+            android:onClick="jiexi"
+            android:text="解析"/>
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="学号"/>
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="年龄"/>
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="姓名"/>
+        <Button
+            android:id="@+id/baocun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"
+            android:onClick="baocun"
+            android:text="保存"/>
+        <EditText
+            android:hint="请输入网址"
+            android:id="@+id/uri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:onClick="queding"
+            android:id="@+id/queding"
+            android:text="确定"
+            android:background="#00ffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/textview"
+            android:hint="heihei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</android.support.v7.widget.LinearLayoutCompat>
